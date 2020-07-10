@@ -23,9 +23,3 @@ urlpatterns = [
     path('53cr37_4dm1n_1o6in_94g3_h3h3/', admin.site.urls),
     path('api/', include('element.urls')),
 ]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-
-if settings.DEBUG:
-    # test mode
-    from django.conf.urls.static import static
-    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
