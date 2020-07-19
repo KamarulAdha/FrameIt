@@ -20,8 +20,9 @@ from django.conf.urls.static import static
 from django.conf import settings
 
 urlpatterns = [
-    # path('53cr37_4dm1n_1o6in_94g3_h3h3/', admin.site.urls),
+    path('53cr37_4dm1n_1o6in_94g3_h3h3/', admin.site.urls),
     path('api/', include('element.urls')),
 ]
 
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
