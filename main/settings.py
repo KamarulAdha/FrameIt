@@ -138,7 +138,7 @@ REST_FRAMEWORK = {
 }
 
 #Testing
-GOOGLE_APPLICATION_CREDENTIALS = 'D:\main-stack-283314-8fee8ff2e43a.json'
+GOOGLE_APPLICATION_CREDENTIALS = './main-stack-283314-8fee8ff2e43a.json'
 
 DEFAULT_FILE_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
 GS_ACCESS_KEY_ID = 'GOOGND7BUE5AV4HUUFKPPR6A'
