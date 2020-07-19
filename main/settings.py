@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'e45h1ytf7asf+!f)xba6oz#0q#79$xxlz9s5vj9cgbo^vt*-^v'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['frameitdjangorestapi.herokuapp.com',]
 
