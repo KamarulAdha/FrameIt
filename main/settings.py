@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'e45h1ytf7asf+!f)xba6oz#0q#79$xxlz9s5vj9cgbo^vt*-^v'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -138,13 +138,13 @@ REST_FRAMEWORK = {
 }
 
 #Testing
-GOOGLE_APPLICATION_CREDENTIALS = './main-stack-283314-8fee8ff2e43a.json'
+GOOGLE_APPLICATION_CREDENTIALS = ''
 
-DEFAULT_FILE_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
-GS_ACCESS_KEY_ID = 'GOOGND7BUE5AV4HUUFKPPR6A'
-GS_SECRET_ACCESS_KEY = 'pe/kKrc68rPrUzCCb4bIe5kGtcvGN9IYchEhsc+K'
-GS_BUCKET_NAME = 'frame-it-bucket'
-STATICFILES_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
+DEFAULT_FILE_STORAGE = ''
+GS_ACCESS_KEY_ID = ''
+GS_SECRET_ACCESS_KEY = ''
+GS_BUCKET_NAME = ''
+STATICFILES_STORAGE = ''
 GS_FILE_OVERWRITE = False
 
 GS_CREDENTIALS = service_account.Credentials.from_service_account_file(
